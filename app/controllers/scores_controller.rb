@@ -6,7 +6,7 @@ class ScoresController < ApplicationController
 	end
 
 	def create
-		@score = Score.create(score_params)
+		@score = Score.create(score: params[:score])
 		render json: @score 
 	end
 
@@ -18,12 +18,6 @@ class ScoresController < ApplicationController
 	def total
 		@score = Score.total_score
 		render json: @score
-	end
-
-	private
-
-	def score_params
-		params.require(:score).permit(:score)
 	end
 
 end
