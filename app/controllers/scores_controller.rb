@@ -15,6 +15,11 @@ class ScoresController < ApplicationController
 		render json: @score
 	end
 
+	def total
+		@score = Score.total_score
+		render json: @score
+	end
+
 	private
 
 	def score_params
