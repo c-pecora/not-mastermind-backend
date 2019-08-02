@@ -1,24 +1,9 @@
-# README
+Not Mastermind (Backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails API to keep track of score
 
-Things you may want to cover:
+Ruby/Rails
 
-* Ruby version
+Video Demo:https://www.youtube.com/watch?v=yaGIcWIKyWM
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Frontend:https://github.com/carlypecora/not-mastermind
